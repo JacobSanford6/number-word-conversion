@@ -1,0 +1,20 @@
+C:\Users\Jake\source\repos\Number String Conversion\Number String Conversion\bin\Debug\Number String Conversion.exe.config
+C:\Users\Jake\source\repos\Number String Conversion\Number String Conversion\bin\Debug\Number String Conversion.exe
+C:\Users\Jake\source\repos\Number String Conversion\Number String Conversion\bin\Debug\Number String Conversion.pdb
+C:\Users\Jake\source\repos\Number String Conversion\Number String Conversion\obj\Debug\Number String Conversion.csproj.AssemblyReference.cache
+C:\Users\Jake\source\repos\Number String Conversion\Number String Conversion\obj\Debug\Number_String_Conversion.Properties.Resources.resources
+C:\Users\Jake\source\repos\Number String Conversion\Number String Conversion\obj\Debug\Number String Conversion.csproj.GenerateResource.cache
+C:\Users\Jake\source\repos\Number String Conversion\Number String Conversion\obj\Debug\Number String Conversion.csproj.CoreCompileInputs.cache
+C:\Users\Jake\source\repos\Number String Conversion\Number String Conversion\obj\Debug\Number String Conversion.exe
+C:\Users\Jake\source\repos\Number String Conversion\Number String Conversion\obj\Debug\Number String Conversion.pdb
+C:\Users\Jake\source\repos\Number String Conversion\Number String Conversion\obj\Debug\Number_String_Conversion.frmConvert.resources
+C:\Users\jake\Downloads\number-word-conversion-main\number-word-conversion-main\Number String Conversion\bin\Debug\Number String Conversion.exe.config
+C:\Users\jake\Downloads\number-word-conversion-main\number-word-conversion-main\Number String Conversion\bin\Debug\Number String Conversion.exe
+C:\Users\jake\Downloads\number-word-conversion-main\number-word-conversion-main\Number String Conversion\bin\Debug\Number String Conversion.pdb
+C:\Users\jake\Downloads\number-word-conversion-main\number-word-conversion-main\Number String Conversion\obj\Debug\Number String Conversion.csproj.AssemblyReference.cache
+C:\Users\jake\Downloads\number-word-conversion-main\number-word-conversion-main\Number String Conversion\obj\Debug\Number_String_Conversion.frmConvert.resources
+C:\Users\jake\Downloads\number-word-conversion-main\number-word-conversion-main\Number String Conversion\obj\Debug\Number_String_Conversion.Properties.Resources.resources
+C:\Users\jake\Downloads\number-word-conversion-main\number-word-conversion-main\Number String Conversion\obj\Debug\Number String Conversion.csproj.GenerateResource.cache
+C:\Users\jake\Downloads\number-word-conversion-main\number-word-conversion-main\Number String Conversion\obj\Debug\Number String Conversion.csproj.CoreCompileInputs.cache
+C:\Users\jake\Downloads\number-word-conversion-main\number-word-conversion-main\Number String Conversion\obj\Debug\Number String Conversion.exe
+C:\Users\jake\Downloads\number-word-conversion-main\number-word-conversion-main\Number String Conversion\obj\Debug\Number String Conversion.pdb
