@@ -42,7 +42,7 @@ namespace Number_String_Conversion
             // 
             // btnCovert
             // 
-            this.btnCovert.Location = new System.Drawing.Point(170, 272);
+            this.btnCovert.Location = new System.Drawing.Point(127, 293);
             this.btnCovert.Name = "btnCovert";
             this.btnCovert.Size = new System.Drawing.Size(141, 23);
             this.btnCovert.TabIndex = 0;
@@ -54,7 +54,8 @@ namespace Number_String_Conversion
             // 
             this.groupBox1.Controls.Add(this.rdoS2N);
             this.groupBox1.Controls.Add(this.rdoN2S);
-            this.groupBox1.Location = new System.Drawing.Point(72, 27);
+            this.groupBox1.ForeColor = System.Drawing.SystemColors.Control;
+            this.groupBox1.Location = new System.Drawing.Point(20, 25);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(334, 46);
             this.groupBox1.TabIndex = 1;
@@ -88,7 +89,8 @@ namespace Number_String_Conversion
             // lblInput
             // 
             this.lblInput.AutoSize = true;
-            this.lblInput.Location = new System.Drawing.Point(72, 94);
+            this.lblInput.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblInput.Location = new System.Drawing.Point(14, 108);
             this.lblInput.Name = "lblInput";
             this.lblInput.Size = new System.Drawing.Size(47, 13);
             this.lblInput.TabIndex = 2;
@@ -97,7 +99,8 @@ namespace Number_String_Conversion
             // lblOutput
             // 
             this.lblOutput.AutoSize = true;
-            this.lblOutput.Location = new System.Drawing.Point(69, 132);
+            this.lblOutput.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblOutput.Location = new System.Drawing.Point(14, 166);
             this.lblOutput.Name = "lblOutput";
             this.lblOutput.Size = new System.Drawing.Size(37, 13);
             this.lblOutput.TabIndex = 3;
@@ -105,7 +108,7 @@ namespace Number_String_Conversion
             // 
             // txtInput
             // 
-            this.txtInput.Location = new System.Drawing.Point(125, 91);
+            this.txtInput.Location = new System.Drawing.Point(75, 108);
             this.txtInput.Name = "txtInput";
             this.txtInput.Size = new System.Drawing.Size(281, 20);
             this.txtInput.TabIndex = 4;
@@ -113,7 +116,7 @@ namespace Number_String_Conversion
             // txtOutput
             // 
             this.txtOutput.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.txtOutput.Location = new System.Drawing.Point(125, 132);
+            this.txtOutput.Location = new System.Drawing.Point(75, 166);
             this.txtOutput.Name = "txtOutput";
             this.txtOutput.ReadOnly = true;
             this.txtOutput.Size = new System.Drawing.Size(281, 121);
@@ -124,7 +127,8 @@ namespace Number_String_Conversion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(445, 328);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ClientSize = new System.Drawing.Size(368, 328);
             this.Controls.Add(this.txtOutput);
             this.Controls.Add(this.txtInput);
             this.Controls.Add(this.lblOutput);

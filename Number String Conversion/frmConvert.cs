@@ -47,15 +47,15 @@ namespace Number_String_Conversion
         
         private void rdoN2S_CheckedChanged(object sender, EventArgs e)
         {
-            lblInput.Text = "String:";
-            lblOutput.Text = "Number:";
+            lblInput.Text = "Number:";
+            lblOutput.Text = "String:";
             txtInput.Focus();
         }
 
         private void rdoS2N_CheckedChanged(object sender, EventArgs e)
         {
-            lblOutput.Text = "String:";
-            lblInput.Text = "Number:";
+            lblOutput.Text = "Number:";
+            lblInput.Text = "String:";
             txtInput.Focus();
         }
     }
