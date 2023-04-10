@@ -24,26 +24,18 @@ namespace Number_String_Conversion
         {
             rdoN2S.Checked = true;
             txtInput.Focus();
-            
-         
         }
 
         private void btnCovert_Click(object sender, EventArgs e)
         {
             if (rdoN2S.Checked) //If Number to String
-            {
-               
-                txtOutput.Text = numberToString.Convert( txtInput.Text );
-               
-                
+            { 
+                txtOutput.Text = NumberToWords.Convert(txtInput.Text);
             }
             else //If String to Number
             {
-                long setVal = stringToNumber.Convert(txtInput.Text);
+                long setVal = WordsToNumber.Convert(txtInput.Text);
                 txtOutput.Text = Convert.ToString(setVal);
-                
-
-
             }
             txtInput.Focus();
             txtInput.SelectAll();
