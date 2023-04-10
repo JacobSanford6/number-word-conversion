@@ -100,7 +100,6 @@ namespace Number_String_Conversion
                 newString = "negative";
             }
 
-
             List<string> sets = convertStringToSets(number);
             int reverseCount = sets.Count;
 
