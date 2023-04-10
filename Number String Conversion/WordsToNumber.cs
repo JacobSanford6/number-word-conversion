@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Jake Sanford
+//04/08/2023
+//This class allows for the user to convert words to number values
+//And words into number values
 namespace Number_String_Conversion
 {
     public static class WordsToNumber
@@ -92,7 +96,6 @@ namespace Number_String_Conversion
                 hundreds = Array.IndexOf(onesList, " " + words[0]);
                 words[0] = "";
                 words[1] = "";
-                
             }
 
             foreach (string word in words)
@@ -118,7 +121,6 @@ namespace Number_String_Conversion
                     }
                 }
             }
-           
             return ((hundreds*100) + (tens*10) + ones);
         }
 

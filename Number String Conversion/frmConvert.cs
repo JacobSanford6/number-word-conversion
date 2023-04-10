@@ -11,6 +11,10 @@ using System.Net;
 using System.IO;
 using System.Threading;
 
+//Jake Sanford
+//04/08/2023
+//This program allows for the user to convert number values into words
+//And words into number values
 namespace Number_String_Conversion
 {
     public partial class frmConvert : Form

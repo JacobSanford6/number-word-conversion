@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 using System.Net;
 using System.Windows.Forms;
 
-
+//Jake Sanford
+//04/08/2023
+//This class allows for the user to numbers into words
+//And words into number values
 namespace Number_String_Conversion
 {
     public static class NumberToWords 
