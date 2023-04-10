@@ -54,7 +54,5 @@ namespace Number_String_Conversion
             lblInput.Text = "Number:";
             txtInput.Focus();
         }
-
-        
     }
 }

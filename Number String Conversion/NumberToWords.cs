@@ -46,7 +46,6 @@ namespace Number_String_Conversion
                     returnString += "-" + onesList[ones - tens * 10].TrimStart() ;
                 }
             }
-
             return returnString;
         }
 
@@ -69,7 +68,6 @@ namespace Number_String_Conversion
             if (number.Length % 3 > 0)
             {
                 firstSetLength = (byte)(number.Length % 3);
-                
             }
 
             if (firstSetLength > 0)
@@ -80,10 +78,7 @@ namespace Number_String_Conversion
             for (int i = firstSetLength; i < numberOfSets * 3 + firstSetLength; i += 3)
             {
                 threes.Add(number.Substring(i, 3));
-
             }
-
-
             return threes;
         }
 
@@ -111,18 +106,14 @@ namespace Number_String_Conversion
 
             foreach (string set in sets)
             {
-
                 if (int.Parse(set) > 0)
                 {
                     newString += " " + convertSet(set).Trim();
                     newString += thousandsList[reverseCount - 1];
                 }
-
                 reverseCount -= 1;
             }
-
             return newString.Trim();
-
         }
     }
 }
