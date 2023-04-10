@@ -12,7 +12,7 @@ namespace Number_String_Conversion
         private static string[] tensList = { "", " twenty", " thirty", " forty", " fifty", " sixty", " seventy", " eighty", " ninety" };
         private static string[] thousandsList = { " thousand", " million", " billion", " trillion", " quadrillion", " quintillion", " sextillion", " septillion", " octillion", " nonillion", " decillion", " undecillion", " duodecillion", " tredecillion", " quattuordecillion", " quindecillion", " sexdecillion", " septendecillion", " octodecillion", " novemdecillion", " vigintillion" };
 
-        public static List<string> getSets(string number)
+        private static List<string> getSets(string number)
         {
             List<string> sets = new List<string>();
             int lastWord = -1;
@@ -50,8 +50,8 @@ namespace Number_String_Conversion
             }
             return sets;
         }
-        
-        public static List<long> getThousandSetValues(string number)
+
+        private static List<long> getThousandSetValues(string number)
         {
             List<long> returnVal = new List<long>();
             string[] split = number.Split(' ');
@@ -69,7 +69,7 @@ namespace Number_String_Conversion
             return returnVal;
         } 
 
-        public static long getSetValue( string set )
+        private static long getSetValue( string set )
         {
             int hundreds=0;
             int tens=0;
@@ -115,7 +115,7 @@ namespace Number_String_Conversion
             return (long)((hundreds*100) + (tens*10) + ones);
         }
 
-        public static long wordsToNumber(string words)
+        public static long Convert(string words)
         {
             string newWords = words;
             int negativeMult = 1;
@@ -125,6 +125,10 @@ namespace Number_String_Conversion
             {
                 negativeMult = -1;
                 newWords = words.Substring(6);
+            }else if (newWords.StartsWith("negative"))
+            {
+                negativeMult = -1;
+                newWords = words.Substring(9);
             }
 
             List<string> sets;

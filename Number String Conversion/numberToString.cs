@@ -75,7 +75,7 @@ namespace Number_String_Conversion
             return threes;
         }
 
-        public static string convertStringToNumberWords( string number)
+        public static string Convert( string number)
         {
             string newString = "";
             if (number.Trim() == "0")
@@ -83,7 +83,7 @@ namespace Number_String_Conversion
                 return "zero";
             }else if (number.StartsWith("-"))
             {
-                newString = "minus";
+                newString = "negative";
             }
 
             

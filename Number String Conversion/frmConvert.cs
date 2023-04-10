@@ -33,13 +33,13 @@ namespace Number_String_Conversion
             if (rdoN2S.Checked) //If Number to String
             {
                
-                txtOutput.Text = numberToString.convertStringToNumberWords( txtInput.Text );
+                txtOutput.Text = numberToString.Convert( txtInput.Text );
                
                 
             }
             else //If String to Number
             {
-                long setVal = stringToNumber.wordsToNumber(txtInput.Text);
+                long setVal = stringToNumber.Convert(txtInput.Text);
                 txtOutput.Text = Convert.ToString(setVal);
                 
 
