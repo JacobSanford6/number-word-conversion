@@ -37,9 +37,6 @@ namespace Number_String_Conversion
             this.lblOutput = new System.Windows.Forms.Label();
             this.txtInput = new System.Windows.Forms.TextBox();
             this.txtOutput = new System.Windows.Forms.RichTextBox();
-            this.btnTestOutput = new System.Windows.Forms.Button();
-            this.txtFail = new System.Windows.Forms.RichTextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -123,43 +120,11 @@ namespace Number_String_Conversion
             this.txtOutput.TabIndex = 5;
             this.txtOutput.Text = "";
             // 
-            // btnTestOutput
-            // 
-            this.btnTestOutput.Location = new System.Drawing.Point(209, 301);
-            this.btnTestOutput.Name = "btnTestOutput";
-            this.btnTestOutput.Size = new System.Drawing.Size(75, 23);
-            this.btnTestOutput.TabIndex = 6;
-            this.btnTestOutput.Text = "Test";
-            this.btnTestOutput.UseVisualStyleBackColor = true;
-            this.btnTestOutput.Click += new System.EventHandler(this.btnTestOutput_Click);
-            // 
-            // txtFail
-            // 
-            this.txtFail.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.txtFail.Location = new System.Drawing.Point(473, 129);
-            this.txtFail.Name = "txtFail";
-            this.txtFail.ReadOnly = true;
-            this.txtFail.Size = new System.Drawing.Size(281, 121);
-            this.txtFail.TabIndex = 7;
-            this.txtFail.Text = "";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(412, 132);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 13);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Fail value:";
-            // 
             // frmConvert
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(771, 328);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtFail);
-            this.Controls.Add(this.btnTestOutput);
+            this.ClientSize = new System.Drawing.Size(445, 328);
             this.Controls.Add(this.txtOutput);
             this.Controls.Add(this.txtInput);
             this.Controls.Add(this.lblOutput);
@@ -186,9 +151,6 @@ namespace Number_String_Conversion
         private System.Windows.Forms.RadioButton rdoN2S;
         private System.Windows.Forms.TextBox txtInput;
         private System.Windows.Forms.RichTextBox txtOutput;
-        private System.Windows.Forms.Button btnTestOutput;
-        private System.Windows.Forms.RichTextBox txtFail;
-        private System.Windows.Forms.Label label1;
     }
 }
 

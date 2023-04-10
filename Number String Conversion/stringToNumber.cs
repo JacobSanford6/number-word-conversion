@@ -117,8 +117,21 @@ namespace Number_String_Conversion
 
         public static long wordsToNumber(string words)
         {
-            List<string> sets = getSets(words);
-            List<long> thousandsMults = getThousandSetValues(words);
+            string newWords = words;
+            int negativeMult = 1;
+            if (newWords.StartsWith("zero")){
+                return 0;
+            }else if (newWords.StartsWith("minus"))
+            {
+                negativeMult = -1;
+                newWords = words.Substring(6);
+            }
+
+            List<string> sets;
+            sets = getSets(newWords);
+            
+
+            List<long> thousandsMults = getThousandSetValues(newWords);
             long total = 0;
 
 
@@ -131,7 +144,7 @@ namespace Number_String_Conversion
                 long setVal = getSetValue(set);
                 total += setVal * thousandsMults[i];
             }
-            return total;
+            return total*negativeMult;
         }
         
 

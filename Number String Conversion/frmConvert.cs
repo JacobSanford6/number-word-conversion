@@ -23,7 +23,7 @@ namespace Number_String_Conversion
         private void frmConvert_Load(object sender, EventArgs e)
         {
             rdoN2S.Checked = true;
-
+            txtInput.Focus();
             
          
         }
@@ -32,7 +32,7 @@ namespace Number_String_Conversion
         {
             if (rdoN2S.Checked) //If Number to String
             {
-
+               
                 txtOutput.Text = numberToString.convertStringToNumberWords( txtInput.Text );
                
                 
@@ -40,39 +40,29 @@ namespace Number_String_Conversion
             else //If String to Number
             {
                 long setVal = stringToNumber.wordsToNumber(txtInput.Text);
-                MessageBox.Show(Convert.ToString(setVal));
+                txtOutput.Text = Convert.ToString(setVal);
                 
 
 
             }
+            txtInput.Focus();
+            txtInput.SelectAll();
         }
         
         private void rdoN2S_CheckedChanged(object sender, EventArgs e)
         {
             lblInput.Text = "String:";
             lblOutput.Text = "Number:";
+            txtInput.Focus();
         }
 
         private void rdoS2N_CheckedChanged(object sender, EventArgs e)
         {
             lblOutput.Text = "String:";
             lblInput.Text = "Number:";
+            txtInput.Focus();
         }
 
-        private void btnTestOutput_Click(object sender, EventArgs e)
-        {
-            
-            for (long i = 0; i< 9223372036854775806; i++)
-            {
-                string numberInWords = numberToString.convertStringToNumberWords(Convert.ToString(i));
-                if (stringToNumber.wordsToNumber(numberInWords) != i)
-                {
-                    Console.WriteLine("Error at: " + i);
-                }
-                
-            }
-            Console.WriteLine("Test Completed!");
-            
-        }
+        
     }
 }
